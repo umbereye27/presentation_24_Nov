@@ -1,7 +1,14 @@
 // Write a function that converts a temperature from Celsius to Fahrenheit.
 
-function temperature(Celsius) {
-   let Fahrenheit = (Celsius * 9/5) + 32;
-  console.log(`The temperature of ${Celsius}°C is equal to ${Fahrenheit}t`);
+// function temperature (Celsius) {
+//    let Fahrenheit = (Celsius * 9/5) + 32;
+//   console.log(`The temperature of ${Celsius}°C is equal to ${Fahrenheit}t`);
+// }
+// temperature(80);
+
+
+const temperature = (Celsius) =>{
+    let Fahrenheit = (Celsius * 9/5) + 32;
+    return Fahrenheit;
 }
-temperature(80);
+console.log(temperature(30));
